@@ -10,7 +10,7 @@ int main() {
     char nome1[50], nome2[50], codigo1[05], codigo2[05];
     float area1, area2, pib1, pib2;
 
-    printf("Carta 1:\n");
+       printf("Carta 1:\n");
 
     printf("Digite o nome do estado: \n");
     scanf("%s" , &nome1);
@@ -32,7 +32,7 @@ int main() {
 
     printf("\n");
 
-    printf("Carta 2:\n");
+       printf("Carta 2:\n");
 
     printf("Digite o nome do estado: \n");
     scanf("%s" , &nome2);
@@ -54,7 +54,7 @@ int main() {
 
     printf("\n");
 
-    printf("Dados da Carta 1:\n");
+      printf("Dados da Carta 1:\n");
     printf("Nome do estado: %s\n", nome1);
     printf("Codigo da carta: %s\n", codigo1);
     printf("Populacao: %d\n", populacao1);

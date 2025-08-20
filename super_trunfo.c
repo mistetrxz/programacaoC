@@ -8,17 +8,21 @@ int main() {
    //declaracao de variaveis para as 2 cartas
     int populacao1, populacao2;
     int numeropt1, numeropt2;
-    char nome1[50], nome2[50], codigo1[05], codigo2[05];
+    char estado1, estado2, codigo1[50], codigo2[50];
+    char cidade1[50], cidade2[50];
     float area1, area2, pib1, pib2;
 
    //cadastro da primeira carta
     printf("--- CADASTRO DA PRIMEIRA CARTA --- \n");
 
     printf("Digite o nome do estado: \n");
-    scanf("%s", &nome1);
+    scanf("%s", &estado1);
 
     printf("Digite o codigo da carta seguido da primeira letra do estado: \n");
     scanf("%s", &codigo1);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &cidade1);
 
     printf("Digite a quantidade de habitantes da cidade: \n");
     scanf("%d", &populacao1);
@@ -38,10 +42,13 @@ int main() {
     printf("--- CADASTRO DA SEGUNDA CARTA --- \n");
 
     printf("Digite o nome do estado: \n");
-    scanf("%s", &nome2);
+    scanf("%s", &estado2);
 
     printf("Digite o codigo da carta seguido da primeira letra do estado: \n");
     scanf("%s", &codigo2);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &cidade2);
 
     printf("Digite a quantidade de habitantes da cidade: \n");
     scanf("%d", &populacao2);
@@ -59,8 +66,9 @@ int main() {
 
    //dados cadastrais da primeira carta
     printf("- Dados da Carta 1:\n");
-    printf("Nome do estado: %s\n", nome1);
+    printf("Nome do estado: %s\n", estado1);
     printf("Codigo da carta: %s\n", codigo1);
+    printf("Nome da cidade: %s\n", cidade1);
     printf("Populacao: %d\n", populacao1);
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f\n", pib1);
@@ -70,8 +78,9 @@ int main() {
 
    //dados cadastrais da segunda carta
     printf("- Dados da Carta 2:\n");
-    printf("Nome do estado: %s\n", nome2);
+    printf("Nome do estado: %s\n", estado2);
     printf("Codigo da carta: %s\n", codigo2);
+    printf("Nome da cidade: %s\n", cidade2);
     printf("Populacao: %d\n", populacao2);
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f\n", pib2);

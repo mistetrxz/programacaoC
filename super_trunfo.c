@@ -92,16 +92,16 @@ int main() {
     printf("PIB per capita: %.2f reais\n", pib_percapita2); 
     printf("Super poder: %.2f \n\n", superpoder2);
 
-    // comparação das cartas 1 e 2
-    printf("---- Agora iremos comparar cada atributo de suas cartas ! ----\n");
-    printf("Vamos ao duelo , quem será o vencedor ? \n (1 - Para sim ) (0 - Para não )\n\n");
-    printf("População: Carta 1 foi a vencedora ? %d \n", populacao1 > populacao2);
-    printf("Área: Carta 1 foi a vencedora ? %d \n", area1 > area2);
-    printf("PIB: Carta 1 foi a vencedora ? %d \n", pib1 > pib2);
-    printf("Pontos Turísticos: Carta 1 foi a vencedora ? %d \n", numeropt1 > numeropt2);
-    printf("Densidade Populacional: Carta 1 foi a vencedora ? %d \n", densidade1 < densidade2);
-    printf("PIB Percapita: Carta 1 foi a vencedora ? %d \n", pib_percapita1 > pib_percapita2);
-    printf("Super Poder: Carta 1 foi a vencedora ? %d \n\n", superpoder1 > superpoder2);
+    // comparação das cartas 1 e 2 (EXCLUIDO PARA O PROXIMO DESAFIO)
+    //printf("---- Agora iremos comparar cada atributo de suas cartas ! ----\n");
+    //printf("Vamos ao duelo , quem será o vencedor ? \n (1 - Para sim ) (0 - Para não )\n\n");
+    //printf("População: Carta 1 foi a vencedora ? %d \n", populacao1 > populacao2);
+    //printf("Área: Carta 1 foi a vencedora ? %d \n", area1 > area2);
+    //printf("PIB: Carta 1 foi a vencedora ? %d \n", pib1 > pib2);
+    //printf("Pontos Turísticos: Carta 1 foi a vencedora ? %d \n", numeropt1 > numeropt2);
+    //printf("Densidade Populacional: Carta 1 foi a vencedora ? %d \n", densidade1 < densidade2);
+    //printf("PIB Percapita: Carta 1 foi a vencedora ? %d \n", pib_percapita1 > pib_percapita2);
+    //printf("Super Poder: Carta 1 foi a vencedora ? %d \n\n", superpoder1 > superpoder2);
 
    // Vencedor do confronto cartas 1 e 2
     printf("---- Agora iremos comparar cada atributo de suas cartas ! ----\n");

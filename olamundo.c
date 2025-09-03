@@ -15,9 +15,4 @@
 
     return 0;
 =======
-    int main(void){
->>>>>>> 91c83fe9a6887fbe66616f6de741535880ab447d
-    
-        
-     
-   }
+   

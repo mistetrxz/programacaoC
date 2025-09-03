@@ -12,7 +12,7 @@ int main() {
     char estado1[3], estado2[3];   
     char codigo1[5], codigo2[5];   
     char cidade1[50], cidade2[50];
-    int primeiroAtributo, segundoAtributo; 
+    char primeiroAtributo, segundoAtributo; 
     float area1, area2, pib1, pib2;
     float densidade1, pib_percapita1;
     float densidade2, pib_percapita2;
@@ -99,15 +99,15 @@ int main() {
    printf("-- Bem Vindo ao jogo SUPER TRUNFO !! --\n");
    printf("Você já cadastrou suas cartas agora vamos jogar !\n");
    printf("Escolha o primeiro atributo.\n");
-   ptintf("P. População");
-   printf("A. Área");
-   printf("I. PIB");
-   printf("D. Densidade Populacional");
-   printf("C. Pib percapita");
-   printf("S. Super poder\n");
+   printf("P. População\n");
+   printf("A. Área\n");
+   printf("I. PIB\n");
+   printf("D. Densidade Populacional\n");
+   printf("C. Pib percapita\n");
+   printf("S. Super poder\n\n");
    
    printf("Digite o primeiro atributo escolhido :");
-   scanf("%d", primeiroAtributo);
+   scanf(" %c", &primeiroAtributo);
 
    switch (primeiroAtributo)
    {
@@ -154,19 +154,19 @@ int main() {
 
    // SEGUNDO ATRIBUTO
    printf("Escolha o segundo atributo , diferente do primeiro selecionado!\n");
-   ptintf("P. População");
-   printf("A. Área");
-   printf("I. PIB");
-   printf("D. Densidade Populacional");
-   printf("C. Pib percapita");
-   printf("S. Super poder\n");
+   printf("P. População\n");
+   printf("A. Área\n");
+   printf("I. PIB\n");
+   printf("D. Densidade Populacional\n");
+   printf("C. Pib percapita\n");
+   printf("S. Super poder\n\n");
    
-   printf("Digite o segundo atributo escolhido :");
-   scanf("%d", segundoAtributo);
+   printf("Digite o segundo atributo escolhido :\n");
+   scanf(" %c", &segundoAtributo);
 
    if (primeiroAtributo == segundoAtributo)
    {
-    printf("Você escolheu atributos iguais !!")
+    printf("Você escolheu atributos iguais !!\n");
    }else {
 
     switch (segundoAtributo)
@@ -186,7 +186,7 @@ int main() {
    case 'I':
    case 'i':
     printf("Você escolheu a opção PIB!\n");
-    resultado1 = pib1 > pib2 ? 1 : 0;
+    resultado2 = pib1 > pib2 ? 1 : 0;
     break;
 
    case 'D':
@@ -212,18 +212,16 @@ int main() {
     break;
     }
     
-    printf("Vamos ao Resultado do confronto!")
+    printf("Vamos ao Resultado do confronto!\n");
     if (resultado1 && resultado2)
     {
-        printf("EMPATOU !!");
-
-        if else
-        printf("Carta 1 venceu !");
-
-        else("Carta 2 Venceu !")
-        
-        
+        printf("Parabéns, você venceu !!\n");
+    }   else if (resultado1 != resultado2){
+        printf("Houve um empate !!");
     }
+        else{
+        printf("Você perdeu !!");
+            }
     
 
    }

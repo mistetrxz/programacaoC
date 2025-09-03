@@ -212,16 +212,10 @@ int main() {
     break;
     }
     
-    printf("Vamos ao Resultado do confronto!\n");
-    if (resultado1 && resultado2)
-    {
-        printf("Parabéns, você venceu !!\n");
-    }   else if (resultado1 != resultado2){
-        printf("Houve um empate !!");
-    }
-        else{
-        printf("Você perdeu !!");
-            }
+   printf("\n-- Resultado do confronto --\n");
+    printf("Rodada 1: %s\n", resultado1 == 1 ? "Carta 1 VENCEU !" : resultado1 == 2 ? "Carta 2 VENCEU !" : "EMPATE !");
+    printf("Rodada 2: %s\n", resultado2 == 1 ? "Carta 1 VENCEU !" : resultado2 == 2 ? "Carta 2 VENCEU !" : "EMPATE !");
+
     
 
    }

@@ -12,7 +12,7 @@ int main(){
 
     printf("\n");
 
-    // Movimentação do Bispo - 5 casas na diagonal
+    // Movimentação do Bispo 
     printf("Movimentacao do Bispo:\n");
     i = 1;
     while (i <= 5) {
